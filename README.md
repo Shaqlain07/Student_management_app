@@ -35,7 +35,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Unit test for Front-end React application
+# Unit test for Front-end React application
 
 In our React application we can see that an ‘App.test.js’ file is already present in the src folder. We will go in that file.\
 To run this test, we will open the terminal and type ‘npm test’ or ‘yarn test’. \
