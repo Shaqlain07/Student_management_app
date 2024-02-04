@@ -1,42 +1,71 @@
-# Student_management_app
 
-It is a full-stack web application for managing the student data.
-Here we have used the Spring boot and MySql database to create backend appliction that is RESTful api.
-For front-end we have used React JS.
+# Student Management App
 
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Student Management App is a full-stack web application designed for efficiently managing student data. The application is built using Spring Boot and MySQL for the backend to create a RESTful API. The frontend is developed using React JS. The technologies utilized include Node.js, Java (8, 11, 16), SQL, Postman API, and Material UI.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Student Data Management:** Easily add, update, and delete student information.
+- **Course Management:** Manage courses and associated details for each student.
+- **User-friendly Interface:** The frontend is built with React JS and Material UI, providing an intuitive and responsive user interface.
+- **RESTful API:**   The backend is developed with Spring Boot, creating a robust and scalable RESTful API for seamless communication between the frontend and backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
+ **Backend:**
+- Spring Boot
+- Java (8, 11, 16)
+- MySQL database
 
-### `npm test`
+**Frontend:**
+- React JS
+- Material UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Other Technologies**
+- Node.js
+- SQL
+- Postman API
 
-### `npm run build`
+## Getting Started
+ 
+ 
+## Prerequisite
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Ensure you have Node.js installed.
+* Install Java (8, 11, 16) and set up the Java development environment.
+* Set up MySQL database.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Unit test for Front-end React application
+## Installation
 
-In our React application we can see that an ‘App.test.js’ file is already present in the src folder. We will go in that file.\
-To run this test, we will open the terminal and type ‘npm test’ or ‘yarn test’. \
-You can see a lot of options here to run the test. Typing ‘a’ will run all the tests from the application.\
+Clone the repository:
+
+```bash
+git clone https://github.com/Shaqlain07/Student-management-app.git
+
+  ```  
+
+  Navigate to the backend directory and run the Spring Boot application.
+
+  ```bash 
+   cd student-management-app/backend
+./mvnw spring-boot:run
+```
+
+Navigate to the frontend directory and install dependencies.
+
+```bash
+cd student-management-app/frontend
+npm install
+```
+Run the React JS application.
+
+```bash
+npm start
+```
+
+
